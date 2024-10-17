@@ -5,7 +5,7 @@ const Welcome = () => (
   <Jumbotron>
     <h1>Images Gallery</h1>
     <p>
-      This is asimple application that retrieves photos using Unspash API. In
+      This is a simple application that retrieves photos with Unsplash API. In
       order to start enter any search term in the input field.
     </p>
     <p>
