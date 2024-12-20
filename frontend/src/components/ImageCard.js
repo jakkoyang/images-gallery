@@ -10,7 +10,7 @@ const ImageCard = ({ image, deleteImage }) => {
         <Card.Text>
           {image.data.description || image.data.alt_description}
         </Card.Text>
-        <Button variant="primary" onClick={() => deleteImage(image.id)}>
+        <Button variant="primary" onClick={() => deleteImage(image.data.id)}>
           Delete
         </Button>
       </Card.Body>

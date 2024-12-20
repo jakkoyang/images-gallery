@@ -26,7 +26,7 @@ const App = () => {
   };
 
   const handleDeleteImage = (id) => {
-    setImages(images.filter((image) => image.id !== id));
+    setImages(images.filter((image) => image.data.id !== id));
   };
 
   return (
